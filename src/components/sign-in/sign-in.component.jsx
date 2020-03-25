@@ -26,7 +26,7 @@ class SingIn extends React.Component {
             this.setState({ email: '', password: ''});
 
         } catch (err) {
-            console.log('err');
+            console.log(err.message);
         }
         
     }
